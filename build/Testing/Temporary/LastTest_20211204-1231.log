@@ -1,0 +1,29 @@
+Start testing: Dec 04 15:13 ?rodkowoeuropejski czas stand.
+----------------------------------------------------------
+1/1 Testing: ExampleTest
+1/1 Test: ExampleTest
+Command: "D:/Projects/Example/build/test/Debug/ExampleTest.exe"
+Directory: D:/Projects/Example/build/test
+"ExampleTest" start time: Dec 04 15:13 ?rodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Running main() from D:\Projects\Example\googletest\googletest\src\gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DungeonTest
+[ RUN      ] DungeonTest.MovesCounter
+[       OK ] DungeonTest.MovesCounter (0 ms)
+[----------] 1 test from DungeonTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"ExampleTest" end time: Dec 04 15:13 ?rodkowoeuropejski czas stand.
+"ExampleTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 04 15:13 ?rodkowoeuropejski czas stand.
