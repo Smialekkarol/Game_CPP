@@ -8,5 +8,5 @@ C:/Program Files/CMake/share/cmake-3.21/Modules/Compiler/MSVC-C.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/GNUInstallDirs.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC-C.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC.cmake
-D:/Projects/Example/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake
-D:/Projects/Example/googletest/CMakeLists.txt
+D:/Projects/Game/build/CMakeFiles/3.21.4/CMakeCCompiler.cmake
+D:/Projects/Game/googletest/CMakeLists.txt

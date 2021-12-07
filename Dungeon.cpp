@@ -21,6 +21,15 @@ public:
         }
     }
 
+    void free()
+    {
+        for (int i = 0; i < maxY; i++)
+        {
+            delete[] map[maxX];
+        }
+        delete[] map;
+    }
+
     void reload()
     {
         vampires.clear();
@@ -70,6 +79,23 @@ public:
             map[n.getY()][n.getX()] = 'V';
         }
     }
+    Dungeon &operator=(const Dungeon &obj)
+    {
+        moves = obj.moves;
+        initialVampires = obj.initialVampires;
+        initialMoves = obj.initialMoves;
+        vampires = obj.vampires;
+        playerX = obj.playerX;
+        playerY = obj.playerY;
+        maxX = obj.maxX;
+        maxY = obj.maxY;
+
+        map = new char *[maxY];
+        for (int i = 0; i < maxY; i++)
+        {
+            map[i] = new char[maxX];
+        }
+    }
 
     void movePlayer(Direction direction)
     {
@@ -84,6 +110,7 @@ public:
 
     void end()
     {
+        free();
         moves = 0;
     }
 
@@ -98,9 +125,32 @@ public:
         }
     }
 
-    bool isItWin()
+    inline bool isItWin() const
     {
         return vampires.empty() && vampires.size() == 0;
+    }
+
+    auto getVampiresCount() const
+    {
+        return vampires.size();
+    }
+
+    int getPlayerX() const
+    {
+        return playerX;
+    }
+
+    int getPlayerY() const
+    {
+        return playerY;
+    }
+
+    void setPosition(int x, int y)
+    {
+        if (x >= 0 && x < maxX)
+            playerX = x;
+        if (y >= 0 && y < maxY)
+            playerY = y;
     }
 
 private:
@@ -134,10 +184,14 @@ private:
         {
             if ((playerX == vampires[i].getX() && playerY == vampires[i].getY()))
             {
-                vampires.erase(vampires.begin() + i);
-                // std::cout << "Human met vampire!\n";
+                deleteVampire(i);
             }
         }
+    }
+
+    void deleteVampire(int i)
+    {
+        vampires.erase(vampires.begin() + i);
     }
 
     void addVampires(int nmbr)
@@ -155,7 +209,7 @@ private:
     std::vector<Vampire> vampires;
     int playerX = 0;
     int playerY = 0;
-    const int maxX;
-    const int maxY;
+    int maxX;
+    int maxY;
     char **map;
 };

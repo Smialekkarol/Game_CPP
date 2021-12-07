@@ -11,8 +11,8 @@ C:/Program Files/CMake/share/cmake-3.21/Modules/FindPython/Support.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/FindThreads.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake
-D:/Projects/Example/googletest/googletest/CMakeLists.txt
-D:/Projects/Example/googletest/googletest/cmake/Config.cmake.in
-D:/Projects/Example/googletest/googletest/cmake/gtest.pc.in
-D:/Projects/Example/googletest/googletest/cmake/gtest_main.pc.in
-D:/Projects/Example/googletest/googletest/cmake/internal_utils.cmake
+D:/Projects/Game/googletest/googletest/CMakeLists.txt
+D:/Projects/Game/googletest/googletest/cmake/Config.cmake.in
+D:/Projects/Game/googletest/googletest/cmake/gtest.pc.in
+D:/Projects/Game/googletest/googletest/cmake/gtest_main.pc.in
+D:/Projects/Game/googletest/googletest/cmake/internal_utils.cmake

@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Projects\Example\main.cpp">
+    <ClCompile Include="D:\Projects\Game\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Projects\Example\UI.cpp">
+    <ClCompile Include="D:\Projects\Game\UI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Projects\Example\Direction.cpp">
+    <ClCompile Include="D:\Projects\Game\Direction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Projects\Example\Dungeon.cpp">
+    <ClCompile Include="D:\Projects\Game\Dungeon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Projects\Example\Option.cpp">
+    <ClCompile Include="D:\Projects\Game\Option.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Projects\Example\Vampire.cpp">
+    <ClCompile Include="D:\Projects\Game\Vampire.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Projects\Example\CMakeLists.txt" />
+    <CustomBuild Include="D:\Projects\Game\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{52CB302A-787C-37E7-A2BE-8D43AF3C3CA8}</UniqueIdentifier>
+      <UniqueIdentifier>{8A7981A4-1692-3F2B-8223-5E6143C633C7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

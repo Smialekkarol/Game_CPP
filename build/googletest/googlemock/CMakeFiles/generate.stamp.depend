@@ -5,6 +5,6 @@ C:/Program Files/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/FindThreads.cmake
-D:/Projects/Example/googletest/googlemock/CMakeLists.txt
-D:/Projects/Example/googletest/googlemock/cmake/gmock.pc.in
-D:/Projects/Example/googletest/googlemock/cmake/gmock_main.pc.in
+D:/Projects/Game/googletest/googlemock/CMakeLists.txt
+D:/Projects/Game/googletest/googlemock/cmake/gmock.pc.in
+D:/Projects/Game/googletest/googlemock/cmake/gmock_main.pc.in

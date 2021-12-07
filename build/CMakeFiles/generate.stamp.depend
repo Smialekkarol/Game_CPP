@@ -13,7 +13,7 @@ C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
-D:/Projects/Example/CMakeLists.txt
-D:/Projects/Example/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake
-D:/Projects/Example/build/CMakeFiles/3.21.4/CMakeRCCompiler.cmake
-D:/Projects/Example/build/CMakeFiles/3.21.4/CMakeSystem.cmake
+D:/Projects/Game/CMakeLists.txt
+D:/Projects/Game/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake
+D:/Projects/Game/build/CMakeFiles/3.21.4/CMakeRCCompiler.cmake
+D:/Projects/Game/build/CMakeFiles/3.21.4/CMakeSystem.cmake

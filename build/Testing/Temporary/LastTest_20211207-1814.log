@@ -1,29 +1,39 @@
-Start testing: Dec 07 19:14 ?rodkowoeuropejski czas stand.
+Start testing: Dec 07 23:32 ?rodkowoeuropejski czas stand.
 ----------------------------------------------------------
-1/1 Testing: ExampleTest
-1/1 Test: ExampleTest
-Command: "D:/Projects/Example/build/test/Debug/ExampleTest.exe"
-Directory: D:/Projects/Example/build/test
-"ExampleTest" start time: Dec 07 19:14 ?rodkowoeuropejski czas stand.
+1/1 Testing: Tests
+1/1 Test: Tests
+Command: "D:/Projects/Game/build/test/Debug/Tests.exe"
+Directory: D:/Projects/Game/build/test
+"Tests" start time: Dec 07 23:32 ?rodkowoeuropejski czas stand.
 Output:
 ----------------------------------------------------------
-Running main() from D:\Projects\Example\googletest\googletest\src\gtest_main.cc
-[==========] Running 1 test from 1 test suite.
+Running main() from D:\Projects\Game\googletest\googletest\src\gtest_main.cc
+[==========] Running 6 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from DungeonTest
+[----------] 6 tests from DungeonTest
 [ RUN      ] DungeonTest.MovesCounter
 [       OK ] DungeonTest.MovesCounter (0 ms)
-[----------] 1 test from DungeonTest (0 ms total)
+[ RUN      ] DungeonTest.VampiresCreation
+[       OK ] DungeonTest.VampiresCreation (0 ms)
+[ RUN      ] DungeonTest.MoveLeft
+[       OK ] DungeonTest.MoveLeft (0 ms)
+[ RUN      ] DungeonTest.MoveRightTest
+[       OK ] DungeonTest.MoveRightTest (0 ms)
+[ RUN      ] DungeonTest.MoveUpTest
+[       OK ] DungeonTest.MoveUpTest (0 ms)
+[ RUN      ] DungeonTest.MoveDownTest
+[       OK ] DungeonTest.MoveDownTest (0 ms)
+[----------] 6 tests from DungeonTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
 <end of output>
-Test time =   0.59 sec
+Test time =   0.77 sec
 ----------------------------------------------------------
 Test Passed.
-"ExampleTest" end time: Dec 07 19:14 ?rodkowoeuropejski czas stand.
-"ExampleTest" time elapsed: 00:00:00
+"Tests" end time: Dec 07 23:32 ?rodkowoeuropejski czas stand.
+"Tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Dec 07 19:14 ?rodkowoeuropejski czas stand.
+End testing: Dec 07 23:32 ?rodkowoeuropejski czas stand.

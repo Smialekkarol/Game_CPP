@@ -313,7 +313,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Projects\Example\test\ExampleTest.cpp" />
+    <ClCompile Include="D:\Projects\Example\test\DungeonTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\Projects\Example\build\ZERO_CHECK.vcxproj">

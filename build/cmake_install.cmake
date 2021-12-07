@@ -1,4 +1,4 @@
-# Install script for directory: D:/Projects/Example
+# Install script for directory: D:/Projects/Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Projects/Example/build/googletest/cmake_install.cmake")
-  include("D:/Projects/Example/build/test/cmake_install.cmake")
+  include("D:/Projects/Game/build/googletest/cmake_install.cmake")
+  include("D:/Projects/Game/build/test/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Projects/Example/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Projects/Game/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

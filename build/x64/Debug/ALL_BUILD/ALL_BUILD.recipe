@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Projects\Example\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\Projects\Game\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Projects\Example\build\test\Debug\ExampleTest.exe</FullPath>
+      <FullPath>D:\Projects\Game\build\test\Debug\Tests.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Projects\Example\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>D:\Projects\Game\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

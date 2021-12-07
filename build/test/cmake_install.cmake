@@ -1,4 +1,4 @@
-# Install script for directory: D:/Projects/Example/test
+# Install script for directory: D:/Projects/Game/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

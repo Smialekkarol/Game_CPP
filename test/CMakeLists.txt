@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.8)
 
-set(This ExampleTest)
+set(This Tests)
 
 set(SOURCES
-    ExampleTest.cpp
+    DungeonTest.cpp
 )
 
 add_executable(${This} ${SOURCES})
