@@ -24,8 +24,8 @@
 	ProcessorClockFrequency="2400"
 	>
 	<Testing>
-		<StartDateTime>Dec 07 23:32 ?rodkowoeuropejski czas stand.</StartDateTime>
-		<StartTestTime>1638916368</StartTestTime>
+		<StartDateTime>Dec 07 23:41 ?rodkowoeuropejski czas stand.</StartDateTime>
+		<StartTestTime>1638916903</StartTestTime>
 		<TestList>
 			<Test>./test/Tests</Test>
 		</TestList>
@@ -36,7 +36,7 @@
 			<FullCommandLine>D:\Projects\Game\build\test\Debug\Tests.exe</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.773311</Value>
+					<Value>0.0270045</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -55,8 +55,8 @@
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Dec 07 23:32 ?rodkowoeuropejski czas stand.</EndDateTime>
-		<EndTestTime>1638916368</EndTestTime>
+		<EndDateTime>Dec 07 23:41 ?rodkowoeuropejski czas stand.</EndDateTime>
+		<EndTestTime>1638916903</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

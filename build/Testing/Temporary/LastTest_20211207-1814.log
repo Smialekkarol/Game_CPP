@@ -1,10 +1,10 @@
-Start testing: Dec 07 23:32 ?rodkowoeuropejski czas stand.
+Start testing: Dec 07 23:41 ?rodkowoeuropejski czas stand.
 ----------------------------------------------------------
 1/1 Testing: Tests
 1/1 Test: Tests
 Command: "D:/Projects/Game/build/test/Debug/Tests.exe"
 Directory: D:/Projects/Game/build/test
-"Tests" start time: Dec 07 23:32 ?rodkowoeuropejski czas stand.
+"Tests" start time: Dec 07 23:41 ?rodkowoeuropejski czas stand.
 Output:
 ----------------------------------------------------------
 Running main() from D:\Projects\Game\googletest\googletest\src\gtest_main.cc
@@ -29,11 +29,11 @@ Running main() from D:\Projects\Game\googletest\googletest\src\gtest_main.cc
 [==========] 6 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 6 tests.
 <end of output>
-Test time =   0.77 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"Tests" end time: Dec 07 23:32 ?rodkowoeuropejski czas stand.
+"Tests" end time: Dec 07 23:41 ?rodkowoeuropejski czas stand.
 "Tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Dec 07 23:32 ?rodkowoeuropejski czas stand.
+End testing: Dec 07 23:41 ?rodkowoeuropejski czas stand.
